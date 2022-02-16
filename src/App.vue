@@ -1,32 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <div class="container">
-    <div class="logo-box">
-      <div class="name-box">
-        <a href="/">
-          <h1 class="site-name">國立陽明交通大學-資訊工程學系</h1>
-        </a>
-        <span class="site-tageline">高中生專區</span>
-      </div>
-    </div> 
-  </div>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <Topbar msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Topbar from './components/topbar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
+    Topbar
   }
 }
 </script>
 
 <style>
-@import '~bootstrap/scss/bootstrap';  
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
