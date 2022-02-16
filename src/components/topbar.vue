@@ -3,11 +3,11 @@
     <div class="logo-box">
       <div class="name-box">    
         <a href="/">
-          <img src="../assets/barlogo.png" alt="LOGO">
+          <img class="cursor-wait" src="../assets/barlogo.png" alt="LOGO">
         </a>
       </div>
-      <div class="link-box">
-          <a href="#">系所介紹</a>
+      <div class="align-center color-white">
+          <a class="color-white" href="#">系所介紹</a>
           <a href="#">課程資訊</a>
           <a href="#">課外生活</a>
           <a href="#">交換學生</a>
@@ -17,28 +17,25 @@
       </div>
     </div> 
   </div>
+
+<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+  <div class="flex-shrink-0">
+    <img class="h-12 w-12" src="../assets/barlogo.png" alt="ChitChat Logo">
+  </div>
+  <div>
+    <div class="text-xl font-medium text-black">ChitChat</div>
+    <p class="text-gray-500">You have a new message!</p>
+  </div>
+</div>
+
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    <slot/>123123
+    <span class="flex h-3 w-3">
+    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+    <span class="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
+    </span>
+</button>
+
+
 </template>
 
-<style scoped>
-.container {
-    overflow: hidden;
-    display: flexbox;
-    color: black;
-}
-
-.link-box a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 17%;
-}
-
-.link-box a:hover {
-    background-color: azure;
-    color: black;
-}
-
-</style>
