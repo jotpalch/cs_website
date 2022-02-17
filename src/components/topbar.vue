@@ -1,41 +1,97 @@
+
 <template>
-  <div class="container">
-    <div class="logo-box">
-      <div class="name-box">    
-        <a href="/">
-          <img class="cursor-wait" src="../assets/barlogo.png" alt="LOGO">
-        </a>
+  <div class=" bg-gray-50 opacity-90 fixed left-0 right-0">
+    <nav
+      class="
+        container
+        z-10
+        px-6
+        py-8
+        mx-auto
+        md:flex md:justify-between md:items-center
+        border-b-2 border-gray-300
+      "
+    >
+      <div class="flex items-center justify-between">
+        <router-link
+          to="/"
+          class="
+            text-xl
+            font-bold
+            text-gray-100
+            md:text-2xl
+            hover:text-indigo-400
+            transform hover:translate-y-1 hover:scale-90
+          "
+          >
+          <a href="/">
+            <img class=" w-64 md:w-80 hover: cursor-pointer" src="../assets/barlogo.png" alt="LOGO">
+          </a>
+        </router-link>
+        <!-- Mobile menu button -->
+        <div @click="toggleNav" class="flex md:hidden">
+          <button
+            type="button"
+            class="
+              text-gray-500
+              hover:text-gray-800
+              focus:outline-none focus:text-gray-400
+            "
+          >
+            <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+              <path
+                fill-rule="evenodd"
+                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </div>
-      <div class="align-center color-white">
-          <a class="color-white" href="#">系所介紹</a>
-          <a href="#">課程資訊</a>
-          <a href="#">課外生活</a>
-          <a href="#">交換學生</a>
-          <a href="#">傑出系友</a>
-          <a href="#">入學資訊</a>
-          <a href="#">常見QA</a>
-      </div>
-    </div> 
+
+      <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+      <ul
+        :class="showMenu ? 'flex' : 'hidden'"
+        class="
+          flex-col
+          mt-8
+          space-y-4
+          border-gray-200
+          md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
+        "
+      >
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">系所介紹</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">課程資訊</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">課外生活</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">交換學生</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">傑出系友</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">入學資訊</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">常見QA</a></li>
+      </ul>
+    </nav>
   </div>
-
-<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-  <div class="flex-shrink-0">
-    <img class="h-12 w-12" src="../assets/barlogo.png" alt="ChitChat Logo">
-  </div>
-  <div>
-    <div class="text-xl font-medium text-black">ChitChat</div>
-    <p class="text-gray-500">You have a new message!</p>
-  </div>
-</div>
-
-<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    <slot/>123123
-    <span class="flex h-3 w-3">
-    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
-    <span class="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
-    </span>
-</button>
-
-
+<!-- 
+  <button @click="count++" class="border-4">Add 1</button>
+  <p>Count is: {{ count }}</p> -->
 </template>
 
+<script>
+import { ref } from 'vue';
+export default {
+  // data() {
+  //   return {
+  //       count: 0
+  //   }
+  // },
+  setup() {
+    let showMenu = ref(false);
+    const toggleNav = () => (showMenu.value = !showMenu.value);
+    return { showMenu, toggleNav };
+  },
+  // mounted() {
+  //   window.addEventListener('scroll', () => {
+  //       let scrollTop = document.documentElement.scrollTop ;
+  //       console.log(scrollTop);
+  //   }, true);
+  // },
+};
+</script>

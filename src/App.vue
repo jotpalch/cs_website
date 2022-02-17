@@ -1,17 +1,17 @@
 <template> 
-  <Topbar msg="Welcome to Your Vue.js App"/>
-  <Headers msg="header" />
+  <div class="flex flex-col h-screen">
+    <Topbar msg="topbar"/>
+    <Headers msg="header" />
+  </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import Topbar from './components/topbar.vue'
 import Headers from './components/Headers.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
     Topbar,
     Headers
   }
@@ -25,10 +25,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0;
 }
 
-html {
-  background: #2c3e62;
-}
 </style>
