@@ -1,19 +1,20 @@
 <template> 
-  <div class="flex flex-col h-screen">
     <Topbar msg="topbar"/>
     <Headers msg="header" />
-  </div>
+    <Photos msg="photos" />
 </template>
 
 <script>
 import Topbar from './components/topbar.vue'
 import Headers from './components/Headers.vue'
+import Photos from './components/photos.vue'
 
 export default {
   name: 'App',
   components: {
     Topbar,
-    Headers
+    Headers,
+    Photos
   }
 }
 </script>

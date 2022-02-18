@@ -1,6 +1,6 @@
 
 <template>
-  <div class=" bg-gray-50 opacity-90 fixed left-0 right-0">
+  <div class="fixed left-0 right-0">
     <nav
       class="
         container
@@ -25,7 +25,7 @@
           "
           >
           <a href="/">
-            <img class=" w-64 md:w-80 hover: cursor-pointer" src="../assets/barlogo.png" alt="LOGO">
+            <img class=" w-64 md:w-80 hover: cursor-pointer" src="../assets/barlogo2.png" alt="LOGO">
           </a>
         </router-link>
         <!-- Mobile menu button -->

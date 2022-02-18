@@ -1,5 +1,13 @@
 <template>
-            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+      <div class=" h-screen">
+            <img class=" overflow-hidden object-cover h-full w-full" src="../assets/ECphoto.jpg" alt="">
+            <div class=" absolute left-0 right-0 mr-3 z-10 top-1/2 lg:left-2/3 lg:mr-32 text-right text-white">
+                  <span class="whitespace-nowrap text-5xl md:text-7xl ">陽明交通資工系<br></span>
+                  <span class=" text-3xl mr-1 text-yellow-500 font-black">高中生專區</span>
+            </div>
+      </div>
+      <div class=" pt-40">
+             What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
         and typesetting industry. Lorem Ipsum has been the industry's standard
         dummy text ever since the 1500s, when an unknown printer took a galley
         of type and scrambled it to make a type specimen book. It has survived
@@ -308,6 +316,8 @@
             <img class=" w-max hover: cursor-pointer mx-auto" src="../assets/barlogo.png" alt="LOGO">
             <img class=" w-max hover: cursor-pointer mx-auto" src="../assets/barlogo.png" alt="LOGO">
             <img class=" w-max hover: cursor-pointer mx-auto" src="../assets/barlogo.png" alt="LOGO">
+      </div>
+           
       <section id="test">
             <img class=" w-max hover: cursor-pointer mx-auto" src="../assets/barlogo.png" alt="LOGO">
       </section>
