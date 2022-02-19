@@ -8,7 +8,7 @@
         px-6
         py-8
         mx-auto
-        md:flex md:justify-between md:items-center
+        lg:flex lg:justify-between lg:items-center
         border-b-2 border-gray-300
       "
     >
@@ -19,17 +19,17 @@
             text-xl
             font-bold
             text-gray-100
-            md:text-2xl
+            lg:text-2xl
             hover:text-indigo-400
             transform hover:translate-y-1 hover:scale-90
           "
           >
           <a href="/">
-            <img class=" w-64 md:w-80 hover: cursor-pointer" src="../assets/barlogo2.png" alt="LOGO">
+            <img class=" w-64 lg:w-80 hover: cursor-pointer" src="../assets/barlogo2.png" alt="LOGO">
           </a>
         </router-link>
         <!-- Mobile menu button -->
-        <div @click="toggleNav" class="flex md:hidden">
+        <div @click="toggleNav" class="flex lg:hidden">
           <button
             type="button"
             class="
@@ -56,16 +56,16 @@
           mt-8
           space-y-4
           border-gray-200
-          md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
+          lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0
         "
       >
-        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">系所介紹</a></li>
-        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">課程資訊</a></li>
-        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">課外生活</a></li>
-        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">交換學生</a></li>
-        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">傑出系友</a></li>
-        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">入學資訊</a></li>
-        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#test">常見QA</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#Dep">系所介紹</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#Lec">課程資訊</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#Exc">課外生活</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#Exs">交換學生</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#Alu">傑出系友</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#Inf">入學資訊</a></li>
+        <li class="text-gray-500 font-bold hover:text-gray-800 cursor-pointer"><a href="/#Qa">常見QA</a></li>
       </ul>
     </nav>
   </div>
