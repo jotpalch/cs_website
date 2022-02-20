@@ -1,17 +1,40 @@
 <template>
-      <div class="h-screen">
-            <img class=" overflow-hidden object-cover h-full w-full" src="../assets/ECphoto.jpg" alt="">
-            <div class="backdrop-filter backdrop-brightness-9ㄓ absolute left-0 right-0 mr-3 z-10 top-1/2 lg:left-2/3 lg:mr-32 text-right text-white">
-                  <span class="whitespace-nowrap text-5xl md:text-7xl ">陽明交通資工系<br></span>
-                  <span class=" text-3xl mr-1 text-yellow-500 font-black">高中生專區</span>
+      <div class="w-full h-screen">
+            <img class=" overflow-hidden object-cover w-full h-full " src="../assets/ECphoto.jpg" alt="">
+            <div class="absolute left-0 right-0 mr-4 md:mr-14 z-10 top-1/2 text-right text-white">
+                  <span class="whitespace-nowrap text-shadow-lg text-5xl md:text-7xl ">陽明交通資工系<br></span>
+                  <span class=" text-3xl mr-1 text-yellow-500 text-shadow-lg font-black">高中生專區</span>
             </div>
       </div>
       
-      <section class=" h-screen" id="Dep">
-            <p>我們的日常生活中，幾乎與資訊工程的應用脫離不了關係。再加上近幾年人工智慧等方面的蓬勃發展，不論是任何產業都與資訊工程息息相關，使得資工不僅只是熱門領域，更是推動未來的關鍵。
-            陽明交通大學資訊工程系為國內大學第一大資訊科系，擁有最多的師資人數，最完整的研究領域、最多的畢業系友以及全國首屈一指的電腦實驗設備。本系整合本校既有的資訊領域豐沛且優異的人才與資源，以邁向國際頂尖，培育下一世代菁英資訊人才為目標。
-            對於大學生來說，好的學習資源以及環境也十分重要。 除了國內首居一指的學術網路以及圖書館外，本系還有系計算機中心、軟硬體系統整合實驗室以及各式特色空間供學生使用，不僅能快速找到想要的資料，更能動手操作驗證，並與其他同學交流討論。近年爲改善暨充實教室環境設備，系上陸續改造系館教室，透過優化空間的做法，提供精進教學環境，以促發學生有效的學習。
-            </p>
+      <section class="relative h-screen pt-56 pb-32 px-8 lg:px-48" id="Dep">
+            <div class=" bg-gray-200 h-full rounded-2xl ">
+                  <div class="w-full h-full transform-gpu -rotate-3 rounded-2xl bg-gradient-to-br from-blue-300 to-blue-500 shadow-2xl">
+                        
+                  </div>
+                  <div class="absolute flex flex-wrap lg:flex-nowrap rounded-xl z-10 top-1/4 lg:top-1/3 xl:bottom-3/12 bg-gray-50 shadow-xl mx-5 lg:mx-20 text-left">    
+                        <div class=" rounded-t-xl w-auto lg:w-4/12 overflow-hidden lg:flex-shrink-0 lg:rounded-l-xl lg:rounded-tr-none">
+                              <img class="w-full h-full lg:rounded-l-xl object-cover object-right" src="../assets/Dep.png" alt="">
+                        </div>
+                        <div class="m-3 lg:m-8">
+                              <h2 class=" text-2xl md:text-4xl lg:text-6xl mb-2 lg:mb-5">系所介紹</h2>
+                              <blockquote class="text-xs md:text-xl lg:text-2xl lg:mt-4" style="text-indent: 2rem">
+                                    我們的日常生活中，幾乎與資訊工程的應用脫離不了關係。再加上近幾年人工智慧等方面的蓬勃發展，不論是任何產業都與資訊工程息息相關，使得資工不僅只是熱門領域，更是推動未來的關鍵。
+                              </blockquote>
+                              <blockquote class="text-xs md:text-xl lg:text-2xl" style="text-indent: 2rem">
+                                    陽明交通大學資訊工程系為國內大學第一大資訊科系，擁有最多的師資人數，最完整的研究領域、最多的畢業系友以及全國首屈一指的電腦實驗設備。本系整合本校既有的資訊領域豐沛且優異的人才與資源，以邁向國際頂尖，培育下一世代菁英資訊人才為目標。
+                              </blockquote>
+                              <blockquote class="text-xs md:text-xl lg:text-2xl" style="text-indent: 2rem">
+                                    對於大學生來說，好的學習資源以及環境也十分重要。 除了國內首居一指的學術網路以及圖書館外，本系還有系計算機中心、軟硬體系統整合實驗室以及各式特色空間供學生使用，不僅能快速找到想要的資料，更能動手操作驗證，並與其他同學交流討論。近年爲改善暨充實教室環境設備，系上陸續改造系館教室，透過優化空間的做法，提供精進教學環境，以促發學生有效的學習。 
+                              </blockquote>
+                        </div>
+                        
+                        
+                  </div>
+                  
+                  
+            </div>
+            
       </section>
 
       <section class=" h-screen" id="Lec">

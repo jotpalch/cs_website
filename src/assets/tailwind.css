@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@font-face
+{
+font-family: 'Ngaan';
+src: url('./I.Ngaan.ttf');
+font-weight: normal;
+font-style: normal;
+}

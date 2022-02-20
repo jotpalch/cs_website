@@ -19,8 +19,8 @@
         </div>
     </div> -->
 
-    <div class="w-screen">
-        <div class=" flex items-center w-full -my-8">
+    <div class="-my-8 overflow-hidden">
+        <div class=" flex items-center w-full py-8">
             <div class=" px-4 flex-none">
                 <figure class="transition-transform ease-in-out transform-gpu rotate-3 hover:rotate-0 bg-gradient-to-br from-blue-300 to-blue-500 p-3 shadow-lg rounded-2xl flex-none w-64 h-64 md:w-full">
                     <img class="overflow-hidden object-cover rounded-2xl w-full h-full" src="../assets/cards/C1.jpg" alt="EC building">
@@ -77,6 +77,7 @@
             </div>
         </div>
     </div>
+
     <!-- <div class=" flex items-center w-full overflow-hidden -my-8">
         <div class=" px-4 flex-none">
             <figure class="transition-transform ease-in-out transform-gpu rotate-3 hover:rotate-0 bg-gradient-to-br from-blue-300 to-blue-500 p-3 shadow-lg rounded-2xl flex-none w-64 h-64 md:w-full">

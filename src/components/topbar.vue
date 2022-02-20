@@ -1,6 +1,6 @@
 
 <template>
-  <div class="fixed left-0 right-0">
+  <div class="fixed z-50 left-0 right-0 lg:left-10 lg:right-10">
     <nav
       class="
         container
