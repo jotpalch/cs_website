@@ -12,7 +12,7 @@
                   <div class="w-full h-full transform-gpu -rotate-3 rounded-2xl bg-gradient-to-br from-blue-300 to-blue-500 shadow-2xl">
                         
                   </div>
-                  <div class="absolute flex flex-wrap lg:flex-nowrap rounded-xl z-10 top-1/4 lg:top-1/3 xl:bottom-3/12 bg-gray-50 shadow-xl mx-5 lg:mx-20 text-left">    
+                  <div v-motion-slide-visible-top class="absolute flex flex-wrap lg:flex-nowrap rounded-xl z-10 top-1/4 lg:top-1/3 xl:bottom-3/12 bg-gray-50 shadow-xl mx-5 lg:mx-20 text-left">    
                         <div class=" rounded-t-xl w-auto lg:w-4/12 overflow-hidden lg:flex-shrink-0 lg:rounded-l-xl lg:rounded-tr-none">
                               <img class="w-full h-full lg:rounded-l-xl object-cover object-right" src="../assets/Dep.png" alt="">
                         </div>
@@ -27,22 +27,59 @@
                               <blockquote class="text-xs md:text-xl lg:text-2xl" style="text-indent: 2rem">
                                     對於大學生來說，好的學習資源以及環境也十分重要。 除了國內首居一指的學術網路以及圖書館外，本系還有系計算機中心、軟硬體系統整合實驗室以及各式特色空間供學生使用，不僅能快速找到想要的資料，更能動手操作驗證，並與其他同學交流討論。近年爲改善暨充實教室環境設備，系上陸續改造系館教室，透過優化空間的做法，提供精進教學環境，以促發學生有效的學習。 
                               </blockquote>
+                        </div>                       
+                  </div>      
+            </div>      
+      </section>
+
+      <div class=" relative h-96 pt-24 mb-14  overflow-hidden">
+            <div class=" absolute bg-gradient-to-t from-gray-200 to-gray-50 w-full bottom-1/3 z-10 top-0"></div> 
+            <Photos v-motion-slide-visible-top msg="photos" class="absolute z-20"/>    
+      </div>
+
+      
+
+      <section class="relative lg:pt-16 overflow-hidden flex flex-wrap-reverse lg:flex-nowrap" id="Lec">
+            <div class=" min-h-screen flex items-center justify-center px-3 lg:right-1/2 lg:w-1/2">
+                  <div class="relative w-full max-w-2xl">
+                        <div class="absolute w-72 h-72 lg:w-96 lg:h-96 top-0 lg:top-32 -left-4 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob "></div>
+                        <div class="absolute w-72 h-72 lg:w-96 lg:h-96 top-0 lg:top-32 -right-4 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+                        <div class="absolute w-72 h-72 lg:w-96 lg:h-96 -bottom-20 lg:bottom-12 right-8 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
+                        <div id="A" class="relative transform hover:scale-150 hover:translate-y-16 lg:hover:translate-x-10 w-auto bg-white rounded-2xl px-10 py-5 m-10 shadow-2xl" >
+                              <span class=" text-gray-600 text-lg md:text-4xl">甲組</span>
+                              <img class="-my-3 lg:-my-6" src="../assets/Lec/A.png" >
                         </div>
-                        
+                        <div class="relative transform hover:scale-150 hover:-translate-y-20 lg:hover:translate-x-10 w-auto bg-white rounded-2xl px-10 py-5 m-10 shadow-2xl" >
+                              <span class=" text-gray-600 text-lg md:text-4xl">乙組</span>
+                              <img class="mr-11 lg:mr-16" src="../assets/Lec/B.png" >
+                        </div>
+                  </div>
+            </div>
+            <div class=" rounded-xl lg:w-1/2 mx-5 pt-64 px-12 ">                   
+                  <div class="m-1 lg:m-8">
+                        <h2 class="text-4xl lg:text-6xl mb-2 mb-16 lg:text-left">課程資訊</h2>
+                        <blockquote class="text-md md:text-xl lg:text-2xl lg:mt-4 text-left max-w-3xl" style="text-indent: 2rem">
+                              本系在課程規劃上，除了校訂必修(外語與通識等)、基礎科學(物理/普生/化學三選一、微積分)以及專業必修(計算機概論與程式設計、線性代數等)以外，學生可依據自己的興趣選修系上規劃的各式主題學程(甲組學生除主題學程外，尚可申請跨域學程)、專業課程(專業選修)以及外系所課程(自由選修)。 為了有系統地提升學生程式實作能力，系上於大一、大二安排扎實的基礎程式訓練課程，並規定學生須通過系上程式檢定考試，以達到畢業標準。此外，亦規劃數門產業極需的特色課程，如「作業系統設計與實作」(師法美國卡內基美隆大學、美國加州柏克萊大學、美國史丹佛等學校課程)、「系統管理實務」與「網路管理實務」等，除了學習理論課程，並加強實作經驗來與產業接軌，兼備學研及實務應用之雙重專業能力。
+                              <p class=" text-xs my-10 lg:text-lg lg:text-center">更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/education/undergraduate" class=" text-blue-800" target="_blank">陽交大課程修業</a> </p>
+                        </blockquote>
+                  
+                  </div>                                              
+            </div> 
+            
+            
+            
+            <!-- <div class=" bg-gray-200 h-full rounded-2xl ">
+                  <div class="w-full h-full transform-gpu -rotate-3 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-500 shadow-2xl">
                         
                   </div>
-                  
-                  
+                      
             </div>
+            <p>
+                  
+            </p> -->
             
       </section>
 
-      <section class=" h-screen" id="Lec">
-            <p>
-                  本系在課程規劃上，除了校訂必修(外語與通識等)、基礎科學(物理/普生/化學三選一、微積分)以及專業必修(計算機概論與程式設計、線性代數等)以外，學生可依據自己的興趣選修系上規劃的各式主題學程(甲組學生除主題學程外，尚可申請跨域學程)、專業課程(專業選修)以及外系所課程(自由選修)。 為了有系統地提升學生程式實作能力，系上於大一、大二安排扎實的基礎程式訓練課程，並規定學生須通過系上程式檢定考試，以達到畢業標準。此外，亦規劃數門產業極需的特色課程，如「作業系統設計與實作」(師法美國卡內基美隆大學、美國加州柏克萊大學、美國史丹佛等學校課程)、「系統管理實務」與「網路管理實務」等，除了學習理論課程，並加強實作經驗來與產業接軌，兼備學研及實務應用之雙重專業能力。
-            </p>
-            <span>更多資訊請參考: 陽交大課程修業</span>
-      </section>
 
       <section class=" h-screen" id="Exc">
             <p>
@@ -92,3 +129,20 @@
       </section>
             
 </template>
+
+<script>
+import Photos from './photos.vue'
+
+export default {
+  components: {
+    Photos,
+  }
+}
+</script>
+
+<style>
+#A:hover {
+      z-index: 10;
+}
+
+</style>
