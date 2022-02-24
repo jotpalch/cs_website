@@ -1,20 +1,17 @@
 <template> 
     <Topbar msg="topbar"/>
     <Headers msg="header" />
-    <Photos msg="photos" />
 </template>
 
 <script>
 import Topbar from './components/topbar.vue'
 import Headers from './components/Headers.vue'
-import Photos from './components/photos.vue'
 
 export default {
   name: 'App',
   components: {
     Topbar,
     Headers,
-    Photos
   }
 }
 </script>
