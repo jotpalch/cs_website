@@ -55,29 +55,16 @@
                         </div>
                   </div>
             </div>
-            <div class=" rounded-xl lg:w-1/2 mx-5 pt-64 px-12 ">                   
+            <div class=" rounded-xl lg:w-1/2 mx-5 pt-32 lg:pt-64 px-12 ">                   
                   <div class="m-1 lg:m-8">
                         <h2 class="text-4xl lg:text-6xl mb-2 mb-16 lg:text-left">課程資訊</h2>
                         <blockquote class="text-md md:text-xl lg:text-2xl lg:mt-4 text-left max-w-3xl" style="text-indent: 2rem">
                               本系在課程規劃上，除了校訂必修(外語與通識等)、基礎科學(物理/普生/化學三選一、微積分)以及專業必修(計算機概論與程式設計、線性代數等)以外，學生可依據自己的興趣選修系上規劃的各式主題學程(甲組學生除主題學程外，尚可申請跨域學程)、專業課程(專業選修)以及外系所課程(自由選修)。 為了有系統地提升學生程式實作能力，系上於大一、大二安排扎實的基礎程式訓練課程，並規定學生須通過系上程式檢定考試，以達到畢業標準。此外，亦規劃數門產業極需的特色課程，如「作業系統設計與實作」(師法美國卡內基美隆大學、美國加州柏克萊大學、美國史丹佛等學校課程)、「系統管理實務」與「網路管理實務」等，除了學習理論課程，並加強實作經驗來與產業接軌，兼備學研及實務應用之雙重專業能力。
-                              <p class=" text-xs my-10 lg:text-lg lg:text-center">更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/education/undergraduate" class=" text-blue-800" target="_blank">陽交大課程修業</a> </p>
+                              <p class=" text-xs my-10 lg:text-lg lg:text-center">更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/education/undergraduate" class=" text-blue-700 hover:text-blue-900" target="_blank">陽交大課程修業</a> </p>
                         </blockquote>
                   
                   </div>                                              
             </div> 
-            
-            
-            
-            <!-- <div class=" bg-gray-200 h-full rounded-2xl ">
-                  <div class="w-full h-full transform-gpu -rotate-3 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-500 shadow-2xl">
-                        
-                  </div>
-                      
-            </div>
-            <p>
-                  
-            </p> -->
-            
       </section>
 
 
@@ -110,22 +97,74 @@
             <span>更多資訊請參考: 陽交大資工入學資訊</span>
       </section>
 
-      <section class=" h-screen" id="Qa">
-            <p>
-                 '''
-                  Ｑ：先選校好，還是先選系好？
-Ａ：先選系的優勢在於能在大一時便專心在你喜歡的科系上，不必想著要轉系、輔系、雙主修這些麻煩事，更何況轉系絕非易事，每年能成功轉入熱門科系的人數也不多(參考自以下資料)，與其花費寶貴的大一時光在沒興趣的科目上，倒不如先紮紮實實得在大一就把基礎打穩吧。
+      <section class=" min-h-screen pt-16 lg:pt-24" id="Qa">
+            <div class="text-4xl lg:text-7xl mt-20 mb-10 lg:m-20">
+                  常見QA
+            </div>
+            <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 text-left mx-1 lg:mx-20 lg:-mt-20">
+                  <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
+                        <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-purple-500 to-indigo-600 ">
+                              <img class="w-10 h-full mx-5 my-2 " src="../assets/Q.png"/>
+                              <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
+                                    先選校好，還是先選系好？
+                              </blockquote>
+                        </div>
+                        <div class="flex">
+                              <img class="w-12 h-12 mx-4 my-4 " src="../assets/A.png"/>
+                              <blockquote class="my-5 mr-7 lg:text-xl">
+                                    先選系的優勢在於能在大一時便專心在你喜歡的科系上，不必想著要轉系、輔系、雙主修這些麻煩事，更何況轉系絕非易事，每年能成功轉入熱門科系的人數也不多(參考自以下資料)，與其花費寶貴的大一時光在沒興趣的科目上，倒不如先紮紮實實得在大一就把基礎打穩吧。
+                              </blockquote>
+                        </div>
+                  </div>
 
-Ｑ：電機和資工好像差不多，我到底要選擇電機還是資工?
-Ａ：電機和資工的領域雖然有部份重疊，但電機偏向底層硬體的設計，而資工則較多軟體及應用方面的課程，跟各行各業都能結合。雖然國內較知名的大廠主要是以硬體為主，但在國外，您熟知的 Google、Facebook、Microsoft、Amazon…等，都軟體公司，就連看似硬體公司的 Apple，主要的收入來源也是軟體端的 Apple Store 哦！除此之外，就算是硬體公司如聯發科技，他們也非常需要軟體人材，否則設計好的硬體，沒有程式在上面執行的話，一樣沒有人買會買單。網路上有一些文章，您可以根據您的興趣，再做決定囉！
+                  <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
+                        <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-yellow-500 to-pink-600">
+                              <img class="w-10 h-full mx-5 my-2 " src="../assets/Q.png"/>
+                              <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
+                                    電機和資工好像差不多，我到底要選擇電機還是資工?
+                              </blockquote>
+                        </div>
+                        <div class="flex">
+                              <img class="w-12 h-12 mx-4 my-4 " src="../assets/A.png"/>
+                              <blockquote class="my-5 mr-7 lg:text-xl">
+                                    電機和資工的領域雖然有部份重疊，但電機偏向底層硬體的設計，而資工則較多軟體及應用方面的課程，跟各行各業都能結合。雖然國內較知名的大廠主要是以硬體為主，但在國外，您熟知的 Google、Facebook、Microsoft、Amazon…等，都軟體公司，就連看似硬體公司的 Apple，主要的收入來源也是軟體端的 Apple Store 哦！除此之外，就算是硬體公司如聯發科技，他們也非常需要軟體人材，否則設計好的硬體，沒有程式在上面執行的話，一樣沒有人買會買單。網路上有一些文章，您可以根據您的興趣，再做決定囉！
+                              </blockquote>
+                        </div>
+                  </div>
 
-Ｑ：我完全不會寫程式，念資工系會不會很辛苦?
-Ａ：絕大部份進來本系的學生都是沒有程式背景的，你覺得那些很厲害的同學基本上是少數中的少數。2018年由Google 舉辦的 Code Jam to I/O for Women 線上程式競賽，台灣隊伍中的第一名與第二名分別是當時陽交大資工系的大二李雅涵同學跟大四柯筑苓同學，他們都是進入陽交大後才開始學習怎麼寫程式的。即使是較晚起步，他們也能在比賽中獲得超強的表現！陽交大資工系有這麼完善的訓練團隊跟環境，你還擔心什麼?!
+                  
+                  <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
+                        <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-green-500 to-green-600">
+                              <img class="w-10 h-full mx-5 my-2 items-center" src="../assets/Q.png"/>
+                              <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
+                                    我完全不會寫程式，念資工系會不會很辛苦?
+                              </blockquote>
+                        </div>
+                        <div class="flex">
+                              <img class="w-12 h-12 mx-4 my-4" src="../assets/A.png"/>
+                              <blockquote class="my-5 mr-7 lg:text-xl">
+                                    絕大部份進來本系的學生都是沒有程式背景的，你覺得那些很厲害的同學基本上是少數中的少數。2018年由Google 舉辦的 Code Jam to I/O for Women 線上程式競賽，台灣隊伍中的第一名與第二名分別是當時陽交大資工系的大二李雅涵同學跟大四柯筑苓同學，他們都是進入陽交大後才開始學習怎麼寫程式的。即使是較晚起步，他們也能在比賽中獲得超強的表現！陽交大資工系有這麼完善的訓練團隊跟環境，你還擔心什麼?!
+                              </blockquote>
+                        </div>
+                  </div>
 
-Ｑ：我對新竹人生地不熟的，萬一抽不到宿舍怎麼辦?=
-Ａ：陽交大的大一生、大二生都有保障住宿喔，而且同系的學生還都住在一起，可以一起念書討論功課，放心啦！
-                 '''
-            </p>
+                  <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
+                        <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-yellow-400 to-yellow-600">
+                              <img class="w-10 h-full mx-5 my-2" src="../assets/Q.png"/>
+                              <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
+                                    我對新竹人生地不熟的，萬一抽不到宿舍怎麼辦?
+                              </blockquote>
+                        </div>
+                        <div class="flex">
+                              <img class="w-12 h-12 mx-4 my-4 stroke-current text-purple-600" src="../assets/A.png"/>
+                              
+                              <blockquote class="my-5 mr-7 lg:text-xl">
+                                    陽交大的大一生、大二生都有保障住宿喔，而且同系的學生還都住在一起，可以一起念書討論功課，放心啦！
+                              </blockquote>
+                        </div>
+                  </div>
+            </div>
+
       </section>
             
 </template>
