@@ -94,48 +94,41 @@
             <p>
                      本系成立迄今已累積近九千位學士、碩士、博士畢業系友，成為國內外產官學研各界的中流砥柱。為了將這廣沛的人脈縱橫串聯，黃種智學長 (計算機工程 69 級) 於 2005 年積極籌畫「交通大學資訊系友會」，並擔任第一屆系友會會長，為凝聚系友力量貢獻卓著。第二屆會長為林三元學長 (計算機工程系 70 級)，第三屆會長余孝先學長(計算機工程系 70 級) ，第四屆會長洪毓祥學長(資訊工程系79級)，現任會長為吳銘雄學長(計算機科學系67級)陸續接棒，傳承聯繫系友的使命。並由趙書華學姐(計算機工程系69級)、陳炳富學長(資訊工程系78級)、邱繼弘(資訊科學系89級)擔任副會長，以及院系教師齊心運作，共同推動系友會諮議、傳承、聯繫、支援等事務。
             </p>
-            <img src="../assets/Alu/alu_1.png">
+            <!-- <img src="../assets/Alu/alu_1.png">
             <img src="../assets/Alu/alu_2.png">
-            <img src="../assets/Alu/alu_3.png">
+            <img src="../assets/Alu/alu_3.png"> -->
       </section>
 
-      <section class=" relative lg:pt-16 overflow-hidden flex flex-wrap lg:flex-nowrap" id="Inf">
-            <div class=" rounded-xl lg:w-1/2 mx-5 pt-32 lg:pt-64 px-12 ">                   
-                  <div class="m-1 lg:m-8">
+      <section class=" relative lg:pt-16 overflow-hidden flex flex-wrap lg:flex-nowrap " id="Inf">
+            <div class=" rounded-xl lg:w-1/2 mx-3 pt-32 lg:pt-0 px-10 my-auto">                   
+                  <div class="m-1 lg:m-8 ">
                         <h2 class="text-4xl lg:text-6xl mb-2 mb-16 ">入學資訊</h2>
-                        <blockquote class="text-md md:text-xl lg:text-2xl lg:mt-4 text-left max-w-3xl" style="text-indent: 2rem">
+                        <div class="text-md md:text-xl lg:text-2xl lg:mt-4 text-left mx-auto max-w-3xl " style="text-indent: 2rem">
                               近幾年來，跨領域創新已成為世界趨勢，本系將提供學生多元的學習機會，除了繼續強化基礎課程的學習，同時也將使專業課程選修具備彈性，促使多元整合之機會，故自108學年度起，取消學籍分組，鼓勵學生多元學習不同專業科目，激發創新思考能力，期待培育出擁有扎實資訊工程基礎並具備新一代跨域創新學習和思考的青年。
                               <p class=" text-xs my-10 lg:text-lg lg:text-center">更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/admission/undergraduate" class=" text-blue-700 hover:text-blue-900" target="_blank">陽交大資工入學資訊</a> </p>
-                        </blockquote>
+                        </div>
                   
                   </div>                                              
             </div> 
             <div class=" min-h-screen flex items-center justify-center px-3 lg:left-1/2 lg:w-1/2">
-                  <div class="relative w-full max-w-2xl">
+                  <div class="relative w-full max-w-3xl">
                         <div class="absolute w-72 h-72 lg:w-96 lg:h-96 top-0 lg:top-32 -left-4 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob "></div>
                         <div class="absolute w-72 h-72 lg:w-96 lg:h-96 top-0 lg:top-32 -right-4 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
                         <div class="absolute w-72 h-72 lg:w-96 lg:h-96 -bottom-20 lg:bottom-12 right-8 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
-                        <div id="A" class="relative transform hover:scale-150 hover:translate-y-16 bg-opacity-50 hover:bg-opacity-100 lg:hover:translate-x-10 w-auto bg-white  rounded-2xl px-10 py-5 m-10 shadow-2xl" >
-                              <span class=" text-gray-600 text-lg md:text-4xl">資訊工程甲組</span>
-                              <div>
-                                    本組延續(原)電機資訊學士班之雙專業，培育多元跨領域人才，修課具彈性，除資訊基礎專業科目外，提供更多專業的跨域學程，以資訊整合電機、財金、生醫、傳播等專長，培育創新智慧系統及創業能力。 除有機會獲得第一志願入學獎學金(各年度之獎學金金額與名額詳見各年度之辦法)，另提供獎學金赴國外一流大學交換(詳見辦法)，以及海外實習機會，亦可申請創新創業獎學金。
+                        <div id="A" class="relative transform bg-opacity-50 hover:bg-opacity-100  w-auto bg-white  rounded-2xl px-7 py-3 m-8 shadow-2xl" >
+                              <span class=" text-gray-600 text-2xl md:text-4xl">資訊工程甲組</span>
+                              <div class="my-3 text-base lg:text-2xl md:m-3">
+                                    本組延續(原)電機資訊學士班之雙專業，培育多元跨領域人才，修課具彈性，除資訊基礎專業科目外，提供更多專業的跨域學程，以資訊整合電機、財金、生醫、傳播等專長，培育創新智慧系統及創業能力。 除有機會獲得第一志願入學獎學金 (各年度之獎學金金額與名額詳見各年度之<a href="https://www.cs.nycu.edu.tw/admission/undergraduate" class=" text-blue-800 hover:text-blue-900" target="_blank">辦法</a>)，另提供獎學金赴國外一流大學交換 (詳見<a href="https://oia.nctu.edu.tw/announcement/student-area/3077" class=" text-blue-800 hover:text-blue-900" target="_blank">辦法</a>)，以及海外實習機會，亦可申請創新創業獎學金。
                               </div>
                         </div>
-                        <div class="relative transform hover:scale-150 hover:-translate-y-20 lg:hover:translate-x-10 bg-opacity-50 hover:bg-opacity-100 w-auto bg-white rounded-2xl px-10 py-5 m-10 shadow-2xl" >
-                              <span class=" text-gray-600 text-lg md:text-4xl">資訊工程乙組</span>
-                              <div>
+                        <div class="relative transform bg-opacity-50 hover:bg-opacity-100 w-auto bg-white rounded-2xl px-7 py-3 m-8 shadow-2xl" >
+                              <span class=" text-gray-600 text-2xl md:text-4xl">資訊工程乙組</span>
+                              <div class="my-3 text-base lg:text-2xl md:m-3">
                                    本組培育頂尖資訊工程、資訊科學與數據科學(CE、CS、DS)人才，系統化學習，除資訊基礎專業科目外，規劃各式專業主題學程，包含人工智慧與數據科學、資訊安全、多媒體工程、網路工程、系統軟體，軟硬體整合與計算理論等，學生可依據自己的興趣選修學程。 在學成績優異者，可申請獎學金赴國外一流大學交換，以及海外實習，亦可申請創新創業獎學金。 
                               </div>
                         </div>
                   </div>
             </div>
-            
-            <!-- <p>
-                  近幾年來，跨領域創新已成為世界趨勢，本系將提供學生多元的學習機會，除了繼續強化基礎課程的學習，同時也將使專業課程選修具備彈性，促使多元整合之機會，故自108學年度起，取消學籍分組，鼓勵學生多元學習不同專業科目，激發創新思考能力，期待培育出擁有扎實資訊工程基礎並具備新一代跨域創新學習和思考的青年。
-資訊工程甲組： 本組延續(原)電機資訊學士班之雙專業，培育多元跨領域人才，修課具彈性，除資訊基礎專業科目外，提供更多專業的跨域學程，以資訊整合電機、財金、生醫、傳播等專長，培育創新智慧系統及創業能力。 除有機會獲得第一志願入學獎學金(各年度之獎學金金額與名額詳見各年度之辦法)，另提供獎學金赴國外一流大學交換(詳見辦法)，以及海外實習機會，亦可申請創新創業獎學金。
-資訊工程乙組： 本組培育頂尖資訊工程、資訊科學與數據科學(CE、CS、DS)人才，系統化學習，除資訊基礎專業科目外，規劃各式專業主題學程，包含人工智慧與數據科學、資訊安全、多媒體工程、網路工程、系統軟體，軟硬體整合與計算理論等，學生可依據自己的興趣選修學程。 在學成績優異者，可申請獎學金赴國外一流大學交換，以及海外實習，亦可申請創新創業獎學金。
-            </p>
-            <span>更多資訊請參考: 陽交大資工入學資訊</span> -->
       </section>
 
       <section class=" min-h-screen pt-16 lg:pt-24" id="Qa">
