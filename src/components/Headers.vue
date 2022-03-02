@@ -37,8 +37,6 @@
             <Photos v-motion-slide-visible-top msg="photos" class="absolute z-20"/>    
       </div>
 
-      
-
       <section class="relative lg:pt-16 overflow-hidden flex flex-wrap-reverse lg:flex-nowrap" id="Lec">
             <div class=" min-h-screen flex items-center justify-center px-3 lg:right-1/2 lg:w-1/2">
                   <div class="relative w-full max-w-2xl">
@@ -60,7 +58,7 @@
                         <h2 class="text-4xl lg:text-6xl mb-2 mb-16 lg:text-left">課程資訊</h2>
                         <blockquote class="text-md md:text-xl lg:text-2xl lg:mt-4 text-left max-w-3xl" style="text-indent: 2rem">
                               本系在課程規劃上，除了校訂必修(外語與通識等)、基礎科學(物理/普生/化學三選一、微積分)以及專業必修(計算機概論與程式設計、線性代數等)以外，學生可依據自己的興趣選修系上規劃的各式主題學程(甲組學生除主題學程外，尚可申請跨域學程)、專業課程(專業選修)以及外系所課程(自由選修)。 為了有系統地提升學生程式實作能力，系上於大一、大二安排扎實的基礎程式訓練課程，並規定學生須通過系上程式檢定考試，以達到畢業標準。此外，亦規劃數門產業極需的特色課程，如「作業系統設計與實作」(師法美國卡內基美隆大學、美國加州柏克萊大學、美國史丹佛等學校課程)、「系統管理實務」與「網路管理實務」等，除了學習理論課程，並加強實作經驗來與產業接軌，兼備學研及實務應用之雙重專業能力。
-                              <p class=" text-xs my-10 lg:text-lg lg:text-center">更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/education/undergraduate" class=" text-blue-700 hover:text-blue-900" target="_blank">陽交大課程修業</a> </p>
+                              <p class=" text-xs my-10 lg:text-lg lg:text-center">更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/education/undergraduate" class=" text-blue-700 hover:text-blue-900" target="_blank">陽交大資工課程修業</a> </p>
                         </blockquote>
                   
                   </div>                                              
@@ -83,10 +81,30 @@
             </div>
       </section>
 
-      <section class=" h-screen" id="Exs">
+      <section class=" h-screen bg-gray-400" id="Exs">
+            
+            <div class="flex ">
+                  <iframe src="https://csdrive.cs.nctu.edu.tw/release/c066132b-87ca-40fc-98c4-30980f4d3e0e" frameborder="0"></iframe>
+                  <iframe src="https://www.youtube.com/embed/9nS-B8OgqEg" frameborder="0"></iframe>
+                  <iframe src="https://www.youtube.com/embed/McKUFsp7AsE" frameborder="0"></iframe>
+            </div>
+
+                  <Splide :options="{ type: 'loop',rewind: true, width: 800, gap: '1rem', }">
+                        <SplideSlide>
+                              <iframe src="https://csdrive.cs.nctu.edu.tw/release/c066132b-87ca-40fc-98c4-30980f4d3e0e" frameborder="0"></iframe>
+                        </SplideSlide>
+                        <SplideSlide>
+                              <iframe src="https://www.youtube.com/embed/9nS-B8OgqEg" frameborder="0"></iframe>
+                        </SplideSlide>
+                        <SplideSlide>
+                              <iframe src="https://www.youtube.com/embed/McKUFsp7AsE" frameborder="0"></iframe>
+                        </SplideSlide>
+                  </Splide>
+
             <p>
                   本系交換學生前往的都是歐美亞洲頂尖名校，學生可以在充滿異國文化的環境中，與全球菁英交流切磋，開拓前瞻視野。透過整個學期甚至一學年的國外體驗，交換生多對生涯規劃有更明確的想法，無論將來是回國或繼續在國外發展，均有多元且傑出的成績。與本系交流之國外學校向來對我們學生的學業表現與創新思考的態度讚賞有加，因有優秀的表現，如果要申請該校研究所，也較容易被錄取。
             </p>
+            
             <span>更多資訊請參考: 陽交大資工出國交換</span>
       </section>
 
@@ -200,15 +218,20 @@
             </div>
 
       </section>
+
             
 </template>
 
 <script>
 import Photos from './photos.vue'
+import '@splidejs/splide/dist/css/splide.min.css';
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
 
 export default {
   components: {
     Photos,
+    Splide,
+    SplideSlide,
   }
 }
 </script>
