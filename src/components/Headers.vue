@@ -66,10 +66,39 @@
       </section>
 
 
-      <section class=" h-screen" id="Exc">
-            <div>
-            系學會舉辦的活動多采多姿，動態的如系內體育競賽、每年由同學主辦的系露營、宿營與資工營等等，此外，還有多項精彩的大型活動，如企業參訪、迎新茶會、火鍋大會、抓馬盃等，從2021年開始，系學會還新增了工作坊系列活動，邀請不同領域的講師帶領大家探索不一樣的知識。
-校內活動亦精彩豐富，藝文活動如每年的抓馬盃話劇賽、學聯會固定舉辦的校園演唱會等，以及校內各種社團，如服務性、音樂性、文藝性、校友會等各種社團，都可以看到出色的資工系學生穿梭其中。同學們不僅習得各種技能，更拓展同學的交友圈，學習與他人相處互動。這些從生活中點滴累積而成的寶貴經驗也養成同學更完整的人格。
+      <section class=" h-screen " id="Exc">
+            <div class=" h-32 md:h-40"></div>
+            <div class="w-full md:w-2/3 md:mx-auto">
+                  <Splide :options="{ type: 'loop', gap: '1rem', wheel: true, autoplay: true, }">
+                        <SplideSlide class="w-full">
+                              <img src="../assets/Exc/exc_1.jpg" class="md:mx-auto md:w-1/2">
+                        </SplideSlide>
+                        <SplideSlide>
+                              <img src="../assets/Exc/exc_2.jpg" class="md:mx-auto md:w-1/2">
+                        </SplideSlide>
+                        <SplideSlide>
+                              <img src="../assets/Exc/exc_3.jpg" class="md:mx-auto md:w-1/2">
+                        </SplideSlide>
+                        <SplideSlide>
+                              <img src="../assets/Exc/exc_4.jpg" class="md:mx-auto md:w-1/2">
+                        </SplideSlide>
+                        <SplideSlide>
+                              <img src="../assets/Exc/exc_5.jpg" class="md:mx-auto md:w-1/2">
+                        </SplideSlide>
+                        <SplideSlide>
+                              <img src="../assets/Exc/exc_6.jpg" class="md:mx-auto md:w-1/2">
+                        </SplideSlide>
+                  </Splide>
+            </div>
+                  
+            <div class="p-4 px-7 md:max-w-5xl md:mx-auto">
+                  <h2 class="text-4xl lg:text-6xl m-2 md:my-10">課外生活</h2>
+                  <blockquote style="text-indent: 2rem" class="text-left md:text-2xl m-1">
+                        系學會舉辦的活動多采多姿，動態的如系內體育競賽、每年由同學主辦的系露營、宿營與資工營等等，此外，還有多項精彩的大型活動，如企業參訪、迎新茶會、火鍋大會、抓馬盃等，從2021年開始，系學會還新增了工作坊系列活動，邀請不同領域的講師帶領大家探索不一樣的知識。
+                  </blockquote>
+                  <blockquote style="text-indent: 2rem" class="text-left md:text-2xl m-1">
+                        校內活動亦精彩豐富，藝文活動如每年的抓馬盃話劇賽、學聯會固定舉辦的校園演唱會等，以及校內各種社團，如服務性、音樂性、文藝性、校友會等各種社團，都可以看到出色的資工系學生穿梭其中。同學們不僅習得各種技能，更拓展同學的交友圈，學習與他人相處互動。這些從生活中點滴累積而成的寶貴經驗也養成同學更完整的人格。
+                  </blockquote>
             </div>
             <div class="flex flex-col">
                   <div class="flex">
@@ -92,7 +121,7 @@
 
 
             <div class="m-3 mt-8 px-4 pb-1 bg-gray-200 rounded-2xl shadow-md md:mx-auto md:max-w-7xl md:px-14">
-                  <blockquote class=" pt-5 text-md md:text-3xl md:pt-10 md:max-w-7xl md:mx-auto md:text-left" style="text-indent: 2rem">
+                  <blockquote class=" pt-5 text-md md:text-2xl md:pt-10 md:max-w-7xl md:mx-auto md:text-left" style="text-indent: 2rem">
                         本系交換學生前往的都是歐美亞洲頂尖名校，學生可以在充滿異國文化的環境中，與全球菁英交流切磋，開拓前瞻視野。透過整個學期甚至一學年的國外體驗，交換生多對生涯規劃有更明確的想法，無論將來是回國或繼續在國外發展，均有多元且傑出的成績。與本系交流之國外學校向來對我們學生的學業表現與創新思考的態度讚賞有加，因有優秀的表現，如果要申請該校研究所，也較容易被錄取。
                   </blockquote>
                   <p class=" text-xs my-5 lg:text-lg md:mx-auto">
@@ -126,7 +155,7 @@
                   <div class="relative w-full max-w-3xl">
                         <div class="absolute w-72 h-72 lg:w-96 lg:h-96 top-0 lg:top-32 -left-4 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob "></div>
                         <div class="absolute w-72 h-72 lg:w-96 lg:h-96 top-0 lg:top-32 -right-4 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
-                        <div class="absolute w-72 h-72 lg:w-96 lg:h-96 -bottom-20 lg:bottom-12 right-8 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
+                        <div class="absolute w-72 h-72 lg:w-96 lg:h-96 bottom-20 lg:bottom-12 right-8 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
                         <div id="A" class="relative transform bg-opacity-50 hover:bg-opacity-100  w-auto bg-white  rounded-2xl px-7 py-3 m-8 shadow-2xl" >
                               <span class=" text-gray-600 text-2xl md:text-4xl">資訊工程甲組</span>
                               <div class="my-3 text-base lg:text-2xl md:m-3">
@@ -219,13 +248,13 @@
 <script>
 import Photos from './photos.vue'
 import '@splidejs/splide/dist/css/splide.min.css';
-// import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
 
 export default {
   components: {
     Photos,
-//     Splide,
-//     SplideSlide,
+    Splide,
+    SplideSlide,
   },
 }
 </script>
