@@ -81,31 +81,25 @@
             </div>
       </section>
 
-      <section class=" h-screen bg-gray-400" id="Exs">
-            
-            <div class="flex ">
-                  <iframe src="https://csdrive.cs.nctu.edu.tw/release/c066132b-87ca-40fc-98c4-30980f4d3e0e" frameborder="0"></iframe>
-                  <iframe src="https://www.youtube.com/embed/9nS-B8OgqEg" frameborder="0"></iframe>
-                  <iframe src="https://www.youtube.com/embed/McKUFsp7AsE" frameborder="0"></iframe>
+      <section class=" h-screen " id="Exs">
+            <div class="pt-32 md:pt-36 pb-2">
+                  <h2 class=" text-4xl my-6 text-shadow-sm lg:text-6xl"> 交換學生 </h2>
             </div>
 
-                  <Splide :options="{ type: 'loop',rewind: true, width: 800, gap: '1rem', }">
-                        <SplideSlide>
-                              <iframe src="https://csdrive.cs.nctu.edu.tw/release/c066132b-87ca-40fc-98c4-30980f4d3e0e" frameborder="0"></iframe>
-                        </SplideSlide>
-                        <SplideSlide>
-                              <iframe src="https://www.youtube.com/embed/9nS-B8OgqEg" frameborder="0"></iframe>
-                        </SplideSlide>
-                        <SplideSlide>
-                              <iframe src="https://www.youtube.com/embed/McKUFsp7AsE" frameborder="0"></iframe>
-                        </SplideSlide>
-                  </Splide>
+            <div class="rounded-2xl overflow-hidden m-3 md:mx-auto md:h-2/5 shadow-xl md:max-w-6xl md:m-6">
+                  <iframe class="h-60  md:h-full w-full" src="https://www.youtube.com/embed/9nS-B8OgqEg" ></iframe>
+            </div>
 
-            <p>
-                  本系交換學生前往的都是歐美亞洲頂尖名校，學生可以在充滿異國文化的環境中，與全球菁英交流切磋，開拓前瞻視野。透過整個學期甚至一學年的國外體驗，交換生多對生涯規劃有更明確的想法，無論將來是回國或繼續在國外發展，均有多元且傑出的成績。與本系交流之國外學校向來對我們學生的學業表現與創新思考的態度讚賞有加，因有優秀的表現，如果要申請該校研究所，也較容易被錄取。
-            </p>
-            
-            <span>更多資訊請參考: 陽交大資工出國交換</span>
+
+            <div class="m-3 mt-8 px-4 pb-1 bg-gray-200 rounded-2xl shadow-md md:mx-auto md:max-w-7xl md:px-14">
+                  <blockquote class=" pt-5 text-md md:text-3xl md:pt-10 md:max-w-7xl md:mx-auto md:text-left" style="text-indent: 2rem">
+                        本系交換學生前往的都是歐美亞洲頂尖名校，學生可以在充滿異國文化的環境中，與全球菁英交流切磋，開拓前瞻視野。透過整個學期甚至一學年的國外體驗，交換生多對生涯規劃有更明確的想法，無論將來是回國或繼續在國外發展，均有多元且傑出的成績。與本系交流之國外學校向來對我們學生的學業表現與創新思考的態度讚賞有加，因有優秀的表現，如果要申請該校研究所，也較容易被錄取。
+                  </blockquote>
+                  <p class=" text-xs my-5 lg:text-lg md:mx-auto">
+                        更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/education/exchange-student" class=" text-blue-700 hover:text-blue-900" target="_blank">陽交大資工出國交換</a>
+                  </p>
+            </div>
+
       </section>
 
       <section class=" h-screen" id="Alu">
@@ -225,14 +219,14 @@
 <script>
 import Photos from './photos.vue'
 import '@splidejs/splide/dist/css/splide.min.css';
-import { Splide, SplideSlide } from '@splidejs/vue-splide';
+// import { Splide, SplideSlide } from '@splidejs/vue-splide';
 
 export default {
   components: {
     Photos,
-    Splide,
-    SplideSlide,
-  }
+//     Splide,
+//     SplideSlide,
+  },
 }
 </script>
 
