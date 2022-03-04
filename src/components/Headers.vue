@@ -137,7 +137,7 @@
                   </div>
             </div>
             <div class="h-screen pb-24">
-                  <div class=" relative bg-gray-200 h-full md:h-1/2 md:min-h-0 rounded-2xl md:max-w-screen-2xl md:mx-auto mt-28 mx-5" >
+                  <div class=" relative bg-gray-200 h-full md:h-1/2 md:min-h-0 rounded-2xl md:max-w-screen-2xl md:mx-auto mt-28 mx-5 " >
                         <div class="w-full h-full transform-gpu -rotate-1 rounded-2xl bg-gradient-to-br from-yellow-400 to-pink-700 shadow-2xl">
                               
                         </div>

@@ -25,6 +25,7 @@
           "
           >
           <a href="/">
+            <img class="hidden w-64 lg:w-80 hover: cursor-pointer" src="../assets/barlogo.png" alt="LOGO">
             <img class=" w-64 lg:w-80 hover: cursor-pointer" src="../assets/barlogo2.png" alt="LOGO">
           </a>
         </router-link>
@@ -69,9 +70,6 @@
       </ul>
     </nav>
   </div>
-<!-- 
-  <button @click="count++" class="border-4">Add 1</button>
-  <p>Count is: {{ count }}</p> -->
 </template>
 
 <script>
