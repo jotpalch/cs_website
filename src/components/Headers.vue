@@ -1,6 +1,6 @@
 <template>
       <div class="w-full h-screen">
-            <img class=" overflow-hidden object-cover w-full h-full " src="../assets/ECphoto.jpg" alt="">
+            <img class=" overflow-hidden object-cover w-full h-full " src="../assets/ECphoto.jpg">
             <div class="absolute left-0 right-0 mr-4 md:mr-14 z-10 top-1/2 text-right text-white">
                   <span class="whitespace-nowrap text-shadow-lg text-5xl md:text-7xl ">陽明交通資工系<br></span>
                   <span class=" text-3xl mr-1 text-yellow-500 text-shadow-lg font-black">高中生專區</span>
@@ -100,14 +100,6 @@
                         校內活動亦精彩豐富，藝文活動如每年的抓馬盃話劇賽、學聯會固定舉辦的校園演唱會等，以及校內各種社團，如服務性、音樂性、文藝性、校友會等各種社團，都可以看到出色的資工系學生穿梭其中。同學們不僅習得各種技能，更拓展同學的交友圈，學習與他人相處互動。這些從生活中點滴累積而成的寶貴經驗也養成同學更完整的人格。
                   </blockquote>
             </div>
-            <div class="flex flex-col">
-                  <div class="flex">
-                        <div>
-                              <img src="" alt="">
-                        </div>
-                  </div>
-                  <div class="flex"></div>
-            </div>
       </section>
 
       <section class=" h-screen " id="Exs">
@@ -131,16 +123,71 @@
 
       </section>
 
-      <section class=" h-screen" id="Alu">
-            <p>
-                     本系成立迄今已累積近九千位學士、碩士、博士畢業系友，成為國內外產官學研各界的中流砥柱。為了將這廣沛的人脈縱橫串聯，黃種智學長 (計算機工程 69 級) 於 2005 年積極籌畫「交通大學資訊系友會」，並擔任第一屆系友會會長，為凝聚系友力量貢獻卓著。第二屆會長為林三元學長 (計算機工程系 70 級)，第三屆會長余孝先學長(計算機工程系 70 級) ，第四屆會長洪毓祥學長(資訊工程系79級)，現任會長為吳銘雄學長(計算機科學系67級)陸續接棒，傳承聯繫系友的使命。並由趙書華學姐(計算機工程系69級)、陳炳富學長(資訊工程系78級)、邱繼弘(資訊科學系89級)擔任副會長，以及院系教師齊心運作，共同推動系友會諮議、傳承、聯繫、支援等事務。
-            </p>
-            <!-- <img src="../assets/Alu/alu_1.png">
-            <img src="../assets/Alu/alu_2.png">
-            <img src="../assets/Alu/alu_3.png"> -->
+      <section class=" min-h-screen" id="Alu">
+            <div class=" h-32 md:h-40"></div>
+            <div class=" max-h-2/5 flex flex-wrap md:flex-nowrap items-center justify-center my-10">
+                  <div class="md:px-40 py-10 md:py-5">
+                        <img  v-motion-fade-visible src="../assets/Alu/傑出系友.png" class=" w-52 h-52">
+                  </div>
+                  <div class=" max-w-4xl px-7 md:px-20 md:text-xl md:text-left" style="text-indent: 2rem">
+                        本系成立迄今已累積近九千位學士、碩士、博士畢業系友，成為國內外產官學研各界的中流砥柱。為了將這廣沛的人脈縱橫串聯，黃種智學長 (計算機工程 69 級) 於 2005 年積極籌畫「交通大學資訊系友會」，並擔任第一屆系友會會長，為凝聚系友力量貢獻卓著。第二屆會長為林三元學長 (計算機工程系 70 級)，第三屆會長余孝先學長(計算機工程系 70 級) ，第四屆會長洪毓祥學長(資訊工程系79級)，現任會長為吳銘雄學長(計算機科學系67級)陸續接棒，傳承聯繫系友的使命。並由趙書華學姐(計算機工程系69級)、陳炳富學長(資訊工程系78級)、邱繼弘(資訊科學系89級)擔任副會長，以及院系教師齊心運作，共同推動系友會諮議、傳承、聯繫、支援等事務。
+                        <p class=" text-xs pr-6 my-5 lg:text-base md:mx-auto md:text-center">
+                              更多資訊請參考: <a href="https://www.cs.nycu.edu.tw/intro/graduated" class=" text-blue-700 hover:text-blue-900" target="_blank">陽交大資工傑出系友</a>
+                        </p>
+                  </div>
+            </div>
+            <div class="h-screen pb-24">
+                  <div class=" relative bg-gray-200 h-full md:h-1/2 md:min-h-0 rounded-2xl md:max-w-screen-2xl md:mx-auto mt-28 mx-5" >
+                        <div class="w-full h-full transform-gpu -rotate-1 rounded-2xl bg-gradient-to-br from-yellow-400 to-pink-700 shadow-2xl">
+                              
+                        </div>
+                        <div  class="absolute flex flex-wrap md:flex-nowrap items-center justify-center top-5 w-full ">
+                              <div class="flex md:flex-col h-40 w-96 md:w-full md:h-96 my-10 rounded-2xl bg-white mx-5 shadow-2xl ">
+                                    <div class=" w-1/2 md:w-full overflow-hidden rounded-l-2xl md:rounded-t-2xl md:rounded-bl-none">
+                                          <img class="h-full md:w-full object-cover object-right md:object-center md:h-full"  src="../assets/Alu/alu_1.png">
+                                    </div>
+                                    <div class="-mb-2 text-2xl flex flex-col justify-end text-left p-5">
+                                          <span class="text-3xl text-gray-700">
+                                                <a href="https://www.cheers.com.tw/article/article.action?id=5043039" target="_blank">朱皇韋</a>
+                                          </span>                                
+                                          <span class=" text-base ml-1 text-gray-500">
+                                                痞客邦 CTO 
+                                          </span>    
+                                    </div>
+                              </div>
+                              <div class="flex md:flex-col h-40 w-96 md:w-full md:h-96 my-10 rounded-2xl bg-white mx-5 shadow-2xl">
+                                    <div class=" w-1/2 md:w-full  overflow-hidden rounded-l-2xl md:rounded-t-2xl md:rounded-bl-none">
+                                          <img class="h-full md:w-full object-cover object-center "  src="../assets/Alu/alu_3.png">
+                                    </div>
+                                    <div class="-mb-2 text-2xl flex flex-col justify-end text-left p-5">
+                                          <span class="text-3xl text-gray-700">
+                                                <a href="https://www.youtube.com/watch?v=qUDDtOUPItE" target="_blank">林弘全</a>
+                                          </span>                                
+                                          <span class=" text-base ml-1 text-gray-500 whitespace-nowrap">
+                                                Flying V創辦人
+                                          </span>    
+                                    </div>
+                              </div>
+                              <div  class="flex md:flex-col h-40 w-96 md:w-full md:h-96 my-10 rounded-2xl bg-white mx-5 shadow-2xl">
+                                    <div class=" w-1/2 flex-shrink-0 md:w-full md:flex-shrink md:h-96 overflow-hidden rounded-l-2xl md:rounded-t-2xl md:rounded-bl-none">
+                                          <img class="h-full md:w-full object-cover object-right "  src="../assets/Alu/alu_2.png">
+                                    </div>
+                                    <div class="-mb-2 text-2xl flex flex-col justify-end text-left p-5 pl-4">
+                                          <span class="text-3xl text-gray-700">
+                                                <a href="https://tw.nextmgz.com/realtimenews/news/36598316" target="_blank">黃士傑</a>
+                                          </span>                                
+                                          <span class=" text-sm md:text-base ml-1 text-gray-500 whitespace-nowrap">
+                                                AlphaGo重要推手
+                                          </span>    
+                                    </div>
+                              </div>
+                        </div>
+
+                  </div>
+            </div>
       </section>
 
-      <section class=" relative lg:pt-16 overflow-hidden flex flex-wrap lg:flex-nowrap " id="Inf">
+      <section class=" relative md:-mt-96 lg:pt-16 overflow-hidden flex flex-wrap lg:flex-nowrap " id="Inf">
             <div class=" rounded-xl lg:w-1/2 mx-3 pt-32 lg:pt-0 px-10 my-auto">                   
                   <div class="m-1 lg:m-8 ">
                         <h2 class="text-4xl lg:text-6xl mb-2 mb-16 ">入學資訊</h2>
@@ -224,7 +271,7 @@
                   </div>
 
                   <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
-                        <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-yellow-400 to-yellow-600">
+                        <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-yellow-500 to-yellow-600">
                               <img class="w-10 h-full mx-5 my-2" src="../assets/Q.png"/>
                               <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
                                     我對新竹人生地不熟的，萬一抽不到宿舍怎麼辦?
