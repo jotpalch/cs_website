@@ -25,8 +25,7 @@
           "
           >
           <a href="/">
-            <img class="hidden w-64 lg:w-80 hover: cursor-pointer" src="../assets/barlogo.png" alt="LOGO">
-            <img class=" w-64 lg:w-80 hover: cursor-pointer" src="../assets/barlogo2.png" alt="LOGO">
+            <img :src = "imgsrc" class="w-64 lg:w-80 hover: cursor-pointer"  alt="LOGO">
           </a>
         </router-link>
         <!-- Mobile menu button -->
@@ -75,21 +74,26 @@
 <script>
 import { ref } from 'vue';
 export default {
-  // data() {
-  //   return {
-  //       count: 0
-  //   }
-  // },
+  data() {
+    return {
+        imgsrc : require("../assets/barlogo2.png"),
+    }
+  },
   setup() {
     let showMenu = ref(false);
     const toggleNav = () => (showMenu.value = !showMenu.value);
     return { showMenu, toggleNav };
   },
-  // mounted() {
-  //   window.addEventListener('scroll', () => {
-  //       let scrollTop = document.documentElement.scrollTop ;
-  //       console.log(scrollTop);
-  //   }, true);
-  // },
+  mounted() {
+    window.addEventListener('scroll', () => {
+        let scrollTop = document.documentElement.scrollTop ;
+        if ( scrollTop >= window.screen.height ) {
+          this.imgsrc = require("../assets/barlogo.png");
+        }
+        else {
+          this.imgsrc = require("../assets/barlogo2.png");
+        }
+    }, true);
+  },
 };
 </script>
