@@ -87,7 +87,7 @@ export default {
   mounted() {
     window.addEventListener('scroll', () => {
         let scrollTop = document.documentElement.scrollTop ;
-        if ( scrollTop >= window.screen.height ) {
+        if ( scrollTop >= window.screen.height-180 ) {
           this.imgsrc = require("../assets/barlogo.png");
         }
         else {
