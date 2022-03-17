@@ -1,4 +1,10 @@
-# cs_website
+# 交大資工-高中生專區
+
+https://highschool.nctucsunion.me/
+
+`vue.js`  
+`TailwindCSS`  
+
 
 ## Project setup
 ```
