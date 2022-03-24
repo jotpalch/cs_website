@@ -1,6 +1,6 @@
 <template>
       <div class="w-full h-screen">
-            <img class=" overflow-hidden object-cover w-full h-full " src="../assets/ECphoto.jpg">
+            <img class=" overflow-hidden object-cover w-full h-full " src="../assets/ECphoto.webp">
             <div class="absolute left-0 right-0 mr-4 md:mr-14 z-10 top-1/2 text-right text-white">
                   <span class="whitespace-nowrap text-shadow-lg text-5xl md:text-7xl ">陽明交通資工系<br></span>
                   <span class=" text-3xl mr-1 text-yellow-500 text-shadow-lg font-black">高中生專區</span>
@@ -14,7 +14,7 @@
                   </div>
                   <div v-motion-slide-visible-top class="absolute flex flex-wrap lg:flex-nowrap rounded-xl z-10 top-1/3 lg:top-1/3 xl:bottom-3/12 bg-gray-50 shadow-xl mx-5 lg:mx-20 text-left">    
                         <div class="hidden xl:block rounded-t-xl w-auto lg:w-4/12 overflow-hidden lg:flex-shrink-0 lg:rounded-l-xl lg:rounded-tr-none">
-                              <img class="w-full h-full lg:rounded-l-xl object-cover object-right" src="../assets/Dep.png" alt="">
+                              <img class="w-full h-full lg:rounded-l-xl object-cover object-right" src="../assets/Dep.webp" alt="">
                         </div>
                         <div class="m-3 2xl:m-8">
                               <h2 class=" text-2xl lg:text-4xl 2xl:text-6xl mb-2 2xl:mb-5">系所介紹</h2>
@@ -45,11 +45,11 @@
                         <div class="absolute w-72 h-72 lg:w-96 lg:h-96 -bottom-20 lg:bottom-12 right-8 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
                         <div id="A" class="relative transform hover:scale-150 hover:translate-y-16 bg-opacity-50 hover:bg-opacity-100 lg:hover:translate-x-10 w-auto bg-white  rounded-2xl px-10 py-5 m-10 shadow-2xl" >
                               <span class=" text-gray-600 text-lg md:text-4xl">甲組</span>
-                              <img class="-my-3 lg:-my-6" src="../assets/Lec/A.png" >
+                              <img class="-my-3 lg:-my-6" src="../assets/Lec/A.webp" >
                         </div>
                         <div class="relative transform hover:scale-150 hover:-translate-y-20 lg:hover:translate-x-10 bg-opacity-50 hover:bg-opacity-100 w-auto bg-white rounded-2xl px-10 py-5 m-10 shadow-2xl" >
                               <span class=" text-gray-600 text-lg md:text-4xl">乙組</span>
-                              <img class="mr-11 lg:mr-16" src="../assets/Lec/B.png" >
+                              <img class="mr-11 lg:mr-16" src="../assets/Lec/B.webp" >
                         </div>
                   </div>
             </div>
@@ -71,22 +71,22 @@
             <div class="w-full md:w-2/3 md:mx-auto">
                   <Splide :options="{ type: 'loop', gap: '1rem', wheel: true, autoplay: true, }">
                         <SplideSlide class="w-full">
-                              <img src="../assets/Exc/exc_1.jpg" class="md:mx-auto md:w-1/2">
+                              <img src="../assets/Exc/exc_1.webp" class="md:mx-auto md:w-1/2">
                         </SplideSlide>
                         <SplideSlide>
-                              <img src="../assets/Exc/exc_2.jpg" class="md:mx-auto md:w-1/2">
+                              <img src="../assets/Exc/exc_2.webp" class="md:mx-auto md:w-1/2">
                         </SplideSlide>
                         <SplideSlide>
-                              <img src="../assets/Exc/exc_3.jpg" class="md:mx-auto md:w-1/2">
+                              <img src="../assets/Exc/exc_3.webp" class="md:mx-auto md:w-1/2">
                         </SplideSlide>
                         <SplideSlide>
-                              <img src="../assets/Exc/exc_4.jpg" class="md:mx-auto md:w-1/2">
+                              <img src="../assets/Exc/exc_4.webp" class="md:mx-auto md:w-1/2">
                         </SplideSlide>
                         <SplideSlide>
-                              <img src="../assets/Exc/exc_5.jpg" class="md:mx-auto md:w-1/2">
+                              <img src="../assets/Exc/exc_5.webp" class="md:mx-auto md:w-1/2">
                         </SplideSlide>
                         <SplideSlide>
-                              <img src="../assets/Exc/exc_6.jpg" class="md:mx-auto md:w-1/2">
+                              <img src="../assets/Exc/exc_6.webp" class="md:mx-auto md:w-1/2">
                         </SplideSlide>
                   </Splide>
             </div>
@@ -127,7 +127,7 @@
             <div class=" h-32 md:h-40"></div>
             <div class=" max-h-2/5 flex flex-wrap md:flex-nowrap items-center justify-center my-10">
                   <div class="md:px-40 py-10 md:py-5">
-                        <img  v-motion-fade-visible src="../assets/Alu/傑出系友.png" class=" w-52 h-52">
+                        <img  v-motion-fade-visible src="../assets/Alu/傑出系友.webp" class=" w-52 h-52">
                   </div>
                   <div class=" max-w-4xl px-7 md:px-20 md:text-xl md:text-left" style="text-indent: 2rem">
                         本系成立迄今已累積近九千位學士、碩士、博士畢業系友，成為國內外產官學研各界的中流砥柱。為了將這廣沛的人脈縱橫串聯，黃種智學長 (計算機工程 69 級) 於 2005 年積極籌畫「交通大學資訊系友會」，並擔任第一屆系友會會長，為凝聚系友力量貢獻卓著。第二屆會長為林三元學長 (計算機工程系 70 級)，第三屆會長余孝先學長(計算機工程系 70 級) ，第四屆會長洪毓祥學長(資訊工程系79級)，現任會長為吳銘雄學長(計算機科學系67級)陸續接棒，傳承聯繫系友的使命。並由趙書華學姐(計算機工程系69級)、陳炳富學長(資訊工程系78級)、邱繼弘(資訊科學系89級)擔任副會長，以及院系教師齊心運作，共同推動系友會諮議、傳承、聯繫、支援等事務。
@@ -144,7 +144,7 @@
                         <div  class="absolute flex flex-wrap md:flex-nowrap items-center justify-center top-5 w-full ">
                               <div class="flex md:flex-col h-40 w-96 md:w-full md:h-96 my-10 rounded-2xl bg-white mx-5 shadow-2xl ">
                                     <div class=" w-1/2 md:w-full overflow-hidden rounded-l-2xl md:rounded-t-2xl md:rounded-bl-none">
-                                          <img class="h-full md:w-full object-cover object-right md:object-center md:h-full"  src="../assets/Alu/alu_1.png">
+                                          <img class="h-full md:w-full object-cover object-right md:object-center md:h-full"  src="../assets/Alu/alu_1.webp">
                                     </div>
                                     <div class="-mb-2 text-2xl flex flex-col justify-end text-left p-5">
                                           <span class="text-3xl text-gray-700">
@@ -157,7 +157,7 @@
                               </div>
                               <div class="flex md:flex-col h-40 w-96 md:w-full md:h-96 my-10 rounded-2xl bg-white mx-5 shadow-2xl">
                                     <div class=" w-1/2 md:w-full  overflow-hidden rounded-l-2xl md:rounded-t-2xl md:rounded-bl-none">
-                                          <img class="h-full md:w-full object-cover object-center "  src="../assets/Alu/alu_3.png">
+                                          <img class="h-full md:w-full object-cover object-center "  src="../assets/Alu/alu_3.webp">
                                     </div>
                                     <div class="-mb-2 text-2xl flex flex-col justify-end text-left p-5">
                                           <span class="text-3xl text-gray-700">
@@ -170,7 +170,7 @@
                               </div>
                               <div  class="flex md:flex-col h-40 w-96 md:w-full md:h-96 my-10 rounded-2xl bg-white mx-5 shadow-2xl">
                                     <div class=" w-1/2 flex-shrink-0 md:w-full md:flex-shrink md:h-96 overflow-hidden rounded-l-2xl md:rounded-t-2xl md:rounded-bl-none">
-                                          <img class="h-full md:w-full object-cover object-right "  src="../assets/Alu/alu_2.png">
+                                          <img class="h-full md:w-full object-cover object-right "  src="../assets/Alu/alu_2.webp">
                                     </div>
                                     <div class="-mb-2 text-2xl flex flex-col justify-end text-left p-5 pl-4">
                                           <span class="text-3xl text-gray-700">
@@ -226,13 +226,13 @@
             <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 text-left mx-1 lg:mx-20 lg:-mt-20">
                   <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
                         <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-purple-500 to-indigo-600 ">
-                              <img class="w-10 h-full mx-5 my-2 " src="../assets/Q.png"/>
+                              <img class="w-10 h-full mx-5 my-2 " src="../assets/Q.webp"/>
                               <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
                                     先選校好，還是先選系好？
                               </blockquote>
                         </div>
                         <div class="flex">
-                              <img class="w-12 h-12 mx-4 my-4 " src="../assets/A.png"/>
+                              <img class="w-12 h-12 mx-4 my-4 " src="../assets/A.webp"/>
                               <blockquote class="my-5 mr-7 lg:text-xl">
                                     先選系的優勢在於能在大一時便專心在你喜歡的科系上，不必想著要轉系、輔系、雙主修這些麻煩事，更何況轉系絕非易事，每年能成功轉入熱門科系的人數也不多(參考自以下資料)，與其花費寶貴的大一時光在沒興趣的科目上，倒不如先紮紮實實得在大一就把基礎打穩吧。
                               </blockquote>
@@ -241,13 +241,13 @@
 
                   <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
                         <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-yellow-500 to-pink-600">
-                              <img class="w-10 h-full mx-5 my-2 " src="../assets/Q.png"/>
+                              <img class="w-10 h-full mx-5 my-2 " src="../assets/Q.webp"/>
                               <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
                                     電機和資工好像差不多，我到底要選擇電機還是資工?
                               </blockquote>
                         </div>
                         <div class="flex">
-                              <img class="w-12 h-12 mx-4 my-4 " src="../assets/A.png"/>
+                              <img class="w-12 h-12 mx-4 my-4 " src="../assets/A.webp"/>
                               <blockquote class="my-5 mr-7 lg:text-xl">
                                     電機和資工的領域雖然有部份重疊，但電機偏向底層硬體的設計，而資工則較多軟體及應用方面的課程，跟各行各業都能結合。雖然國內較知名的大廠主要是以硬體為主，但在國外，您熟知的 Google、Facebook、Microsoft、Amazon…等，都軟體公司，就連看似硬體公司的 Apple，主要的收入來源也是軟體端的 Apple Store 哦！除此之外，就算是硬體公司如聯發科技，他們也非常需要軟體人材，否則設計好的硬體，沒有程式在上面執行的話，一樣沒有人買會買單。網路上有一些文章，您可以根據您的興趣，再做決定囉！
                               </blockquote>
@@ -257,13 +257,13 @@
                   
                   <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
                         <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-green-500 to-green-600">
-                              <img class="w-10 h-full mx-5 my-2 items-center" src="../assets/Q.png"/>
+                              <img class="w-10 h-full mx-5 my-2 items-center" src="../assets/Q.webp"/>
                               <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
-                                    我完全不會寫程式，念資工系會不會很辛苦?
+                                    我完全不會寫程式，讀資工系會不會很辛苦?
                               </blockquote>
                         </div>
                         <div class="flex">
-                              <img class="w-12 h-12 mx-4 my-4" src="../assets/A.png"/>
+                              <img class="w-12 h-12 mx-4 my-4" src="../assets/A.webp"/>
                               <blockquote class="my-5 mr-7 lg:text-xl">
                                     絕大部份進來本系的學生都是沒有程式背景的，你覺得那些很厲害的同學基本上是少數中的少數。2018年由Google 舉辦的 Code Jam to I/O for Women 線上程式競賽，台灣隊伍中的第一名與第二名分別是當時陽交大資工系的大二李雅涵同學跟大四柯筑苓同學，他們都是進入陽交大後才開始學習怎麼寫程式的。即使是較晚起步，他們也能在比賽中獲得超強的表現！陽交大資工系有這麼完善的訓練團隊跟環境，你還擔心什麼?!
                               </blockquote>
@@ -272,13 +272,13 @@
 
                   <div class="m-3 lg:m-20 rounded-2xl bg-white shadow-xl max-w-4xl">
                         <div class="flex items-center rounded-t-2xl text-white bg-gradient-to-br from-yellow-500 to-yellow-600">
-                              <img class="w-10 h-full mx-5 my-2" src="../assets/Q.png"/>
+                              <img class="w-10 h-full mx-5 my-2" src="../assets/Q.webp"/>
                               <blockquote class="my-3 text-xl mr-7 lg:text-3xl">
                                     我對新竹人生地不熟的，萬一抽不到宿舍怎麼辦?
                               </blockquote>
                         </div>
                         <div class="flex">
-                              <img class="w-12 h-12 mx-4 my-4 stroke-current text-purple-600" src="../assets/A.png"/>
+                              <img class="w-12 h-12 mx-4 my-4 stroke-current text-purple-600" src="../assets/A.webp"/>
                               
                               <blockquote class="my-5 mr-7 lg:text-xl">
                                     陽交大的大一生、大二生都有保障住宿喔，而且同系的學生還都住在一起，可以一起念書討論功課，放心啦！
