@@ -2,6 +2,8 @@
 
 更新系上長達五年未更新的高中生網站  
 https://highschool.nctucsunion.me/
+  
+![](https://i.imgur.com/6rLzc30.jpg)  
 
 ## 使用技術
 
