@@ -7,7 +7,8 @@
 @font-face
 {
 font-family: 'Ngaan';
-src: url('./I.Ngaan.woff');
+/* src: url('./I.Ngaan.woff'); */
+src: url('./I.Ngaan.subset.woff2');
 font-weight: normal;
 font-style: normal;
 }
