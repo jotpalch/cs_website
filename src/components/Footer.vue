@@ -33,7 +33,7 @@
                 </div>
                 <div class=" flex flex-nowrap items-center">
                     <img class="w-5" src="../assets/Footer/email.webp">
-                    <div class="text-gray-800 col-span-2 px-3">office@cs.nctu.edu.tw</div>
+                    <div class="text-gray-800 col-span-2 px-3">office@cs.nycu.edu.tw</div>
                 </div>
             </div>
         </div>
