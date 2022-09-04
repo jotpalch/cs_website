@@ -12,7 +12,7 @@
                   <div class="w-full h-full transform-gpu -rotate-3 rounded-2xl bg-gradient-to-br from-blue-300 to-blue-500 shadow-2xl">
                         
                   </div>
-                  <div v-motion-slide-visible-top class="absolute flex flex-wrap lg:flex-nowrap rounded-xl z-10 top-1/3 lg:top-1/3 xl:bottom-3/12 bg-gray-50 shadow-xl mx-5 lg:mx-20 text-left">    
+                  <div class="absolute flex flex-wrap lg:flex-nowrap rounded-xl z-10 top-1/3 lg:top-1/3 xl:bottom-3/12 bg-gray-50 shadow-xl mx-5 lg:mx-20 text-left">    
                         <div class="hidden xl:block rounded-t-xl w-auto lg:w-4/12 overflow-hidden lg:flex-shrink-0 lg:rounded-l-xl lg:rounded-tr-none">
                               <img class="w-full h-full lg:rounded-l-xl object-cover object-right" src="../assets/Dep.webp" alt="">
                         </div>
