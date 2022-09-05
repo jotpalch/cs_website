@@ -108,7 +108,7 @@
             </div>
 
             <div class="rounded-2xl overflow-hidden m-3 md:mx-auto md:h-2/5 shadow-xl md:max-w-6xl md:m-6">
-                  <iframe class="h-60  md:h-full w-full" src="https://www.youtube.com/embed/9nS-B8OgqEg" ></iframe>
+                  <iframe rel="dns-prefetch" class="h-60  md:h-full w-full" src="https://www.youtube.com/embed/9nS-B8OgqEg" ></iframe>
             </div>
 
 
