@@ -21,3 +21,21 @@ font-style: normal;
         animation-delay: 4s;
     }
 }
+
+@media (min-width:1200px) and (max-width:1366px) {
+    html {
+        zoom: 0.66;
+    }
+    #photo {
+        height: 100%;
+    }
+}
+
+@media (min-width:1367px) and (max-width:1440px) {
+    html {
+        zoom: 0.78;
+    }
+    #photo {
+        height: 100%;
+    }
+}

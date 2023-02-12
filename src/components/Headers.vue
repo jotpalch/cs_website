@@ -1,5 +1,5 @@
 <template>
-      <div class="w-full h-screen">
+      <div class="w-full h-screen" id="photo">
             <img class=" overflow-hidden object-cover w-full h-full " src="../assets/ECphoto.webp">
             <div class="absolute left-0 right-0 mr-4 md:mr-14 z-10 top-1/2 text-right text-white">
                   <span class="whitespace-nowrap text-shadow-lg text-5xl md:text-7xl ">陽明交通資工系<br></span>
